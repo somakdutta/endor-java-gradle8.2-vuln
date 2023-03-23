@@ -14,3 +14,8 @@ repositories {
     // Use the plugin portal to apply community plugins in convention plugins.
     gradlePluginPortal()
 }
+dependencies{
+    // added to test pinned vs unpinned
+    implementation 'io.dropwizard:dropwizard-core:(2.1.0,2.1.5]'
+    implementation("org.apache.commons:commons-lang3:3.10")
+}
