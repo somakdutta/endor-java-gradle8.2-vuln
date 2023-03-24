@@ -7,15 +7,12 @@
 plugins {
     // Support convention plugins written in Groovy. Convention plugins are build scripts in 'src/main' that automatically become available as plugins in the main build.
     id 'groovy-gradle-plugin'
-//    id 'java-library'
 }
 
 repositories {
     // Use the plugin portal to apply community plugins in convention plugins.
     gradlePluginPortal()
 }
-dependencies{
-    // added to test pinned vs unpinned
-    implementation 'io.dropwizard:dropwizard-core:(2.1.0,2.1.5]'
+dependencies{s
     implementation("org.apache.commons:commons-lang3:3.10")
 }

@@ -12,6 +12,8 @@ dependencies {
     implementation 'org.apache.commons:commons-text:1.10.0'
     implementation project(':utilities')
     compileOnly 'jakarta.servlet:jakarta.servlet-api:6.0.0'
+    // added to test pinned vs unpinned
+    implementation 'io.dropwizard:dropwizard-core:(2.1.0,2.1.5]'
 
 }
 version '1.0.4'
